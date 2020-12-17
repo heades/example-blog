@@ -1,0 +1,29 @@
+data-dir: /Users/heades/website/blog/example-blog
+
+from: markdown+emoji
+
+to: html
+
+template: ../layouts/post
+
+output-file: 
+
+input-files: []
+
+standalone: true
+
+self-contained: false
+
+highlight-style: pygments
+
+email-obfuscation: javascript
+metadata:
+  email: example-blog@example-blog.com
+
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+css:
+- https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css
+- /includes/css/proofs.css
